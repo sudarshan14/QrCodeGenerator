@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    fun getBitmap(): Bitmap {
+    private fun getBitmap(): Bitmap {
 
         val myList: ArrayList<String> = getMacAddress()
 
